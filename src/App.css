@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+:root{
+  --color-font : #ffffff99;;
+  --bg-component : #262932;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: var(--bg-component);
+  color: var(--color-font);
+  font-family: 'Open Sans', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ContentHome{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-self: center;
+  flex-wrap: wrap;
+  padding-top: 5%;
+}
+.LogoHome{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.FormSearch{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Home__search{
+ padding: 10px ;
+ width: 40%;
+ border-radius: 10px;
+ border: 0;
+ margin: 10px auto;
+ height: 20px;
+ font-weight: 500;
+ font-size: 18px;
+}
+
+.Home__link{
+  background-color: #5861df99;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+ border-radius: 10px;
+ border: 0;
+ margin: auto;
+ width: 40%;
+ text-align: center;
+}
+.Home__img{
+  width: 300px;
+}
+.btn-back{
+  position: absolute;
+  width: 12%;
+  height: 5%;
+  left: 4%;
+  top:4%;
+  border-radius: 10px;
+  background-color: #5861df99;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn-back:hover{
+  background-color:rgb(219, 219, 219);
+  color:  #000fe499;    
 }

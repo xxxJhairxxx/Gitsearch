@@ -1,0 +1,45 @@
+.Content__Repositorie{
+    background-color: #B7D6D1;
+    width: 60%;
+    margin: 3% auto;
+    padding: 2% 4%;
+    border-radius: 20px;
+    color: #000;
+}
+
+.Repositorie__title{
+    text-align: center;
+}
+
+.RepositorieInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.RepositorieInfo__Item{
+    width: 40%;
+    min-width: 260px;
+    
+}
+
+.Repositorie{
+    overflow-y: scroll;
+    height: 290px;
+}
+.Repositorie::-webkit-scrollbar{
+    width: 10px;
+    background-color: #B7D6D1;}
+
+.Repositorie::-webkit-scrollbar-thumb{
+    background: #fff;}
+
+.EnlaceRepositorio{
+    display: block;
+    padding: 1% 4%;
+    background: #fff;
+    margin: 2%;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}

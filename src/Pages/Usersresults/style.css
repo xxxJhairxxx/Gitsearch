@@ -1,0 +1,53 @@
+.Content-users{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.UsersControlls{
+    width: 100;
+    display: flex;
+}
+
+
+
+.UsersCards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Users__card{
+    width: 20%;
+    min-width: 145px;
+    max-width: 200px;
+    margin: 2%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+}
+
+.Users__thumb{
+    width: 95%;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Users__img{
+    width: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
+
+.Users__name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0 ;
+    justify-content: center;
+}
